@@ -24,7 +24,12 @@ h3{
     font-size: xx-large;
     letter-spacing: 5px;
 }
-
+h4{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size:15px;
+    letter-spacing: 7px;
+}
 h6{
     color: white;
     font-family: 'Bebas Neue', cursive;
@@ -61,8 +66,14 @@ p{
     height: 60px;
     color: #ffffff;
 }
+
+.contactbutton:hover{
+    width:300px;
+    height:70px;
+}
+
 .active, .contactbutton:hover {
-    background-color: #ccc;
+    background-color: rgb(238, 237, 237);
   }
 
   .content {
@@ -71,6 +82,9 @@ p{
     overflow: hidden;
     background-color: #f1f1f1;
   }
+
+  /*new button*/
+
 /*END BUTTON*/
 
 
@@ -91,6 +105,22 @@ p{
     border-top-style: none;
 }
 
+.contactform{
+    border-style: solid;
+    width:500px;
+    border-radius: 25px;
+    padding: 5%;
+    border-width: 1px;
+}
+
+.contactarea{
+    border-style: solid;
+    width:350px;
+    max-height: 100px;
+    border-radius: 15px;
+    padding: 5%;
+    border-width: 1px;
+}
 
 /*MAC PIC*/
 .maccomputer{
