@@ -1,5 +1,74 @@
+/*begin ani test smooth animation*/
+
+.smoothed-out {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  font-size: 1.6rem;
+  width: 0;
+}
+.container {
+  display: inline-block;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.smoothed-out{
+  overflow: hidden;
+  border-right: .15em solid rgba(223, 223, 223, 0.192);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 1s forwards;
+}
+
+
+/*end test*/
+/*typed*/
+
+.container {
+  display: inline-block;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: rgb(99, 153, 189); }
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid rgb(71, 115, 151);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: 
+    typing 1s steps(20, end) forwards,
+    blink .8s infinite;
+}
+
+/*end typed*/
+
+header{
+  height:auto;
+  position:fixed;
+  background-color: rgba(0, 0, 0, 0.568);
+  top:0;
+  width:100%;
+
+}
+
 body{
     background-color: black;
+}
+footer{
+ 
+  bottom: 0%; 
+  background: rgba(88, 88, 88, 0.514);
+  border-top-left-radius: 55px;
 }
 
 
@@ -25,10 +94,17 @@ h3{
     letter-spacing: 5px;
 }
 h4{
-    color: white;
+    color: lightgrey;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size:12px;
+    letter-spacing: 17px;
+    font-weight: 15x;
+}
+h5{
+  color: rgb(247, 245, 245);
     font-family: 'Bebas Neue', cursive;
-    font-size:15px;
-    letter-spacing: 7px;
+    font-size: xx-large;
+    letter-spacing: 5px;
 }
 h6{
     color: white;
@@ -56,20 +132,20 @@ p{
     max-width:40%;
 }
 /*BUTTON CONTACT*/
-.contactbutton{
+.button{
     border-style: solid;
-    border-color:rgb(0, 0, 0) ;
+    border-color:rgb(133, 133, 133) ;
     border-width: 1px;
     border-radius: 5px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(150, 149, 149, 0.404);
     width:250px;
-    height: 60px;
-    color: #ffffff;
+    height: auto;
+    color: #858383;
 }
 
-.contactbutton:hover{
-    width:300px;
-    height:70px;
+.button:hover{
+    width:auto;
+    height:auto;
 }
 
 .active, .contactbutton:hover {
@@ -82,10 +158,25 @@ p{
     overflow: hidden;
     background-color: #f1f1f1;
   }
+/*ABOUT US START*/
+.about_us_paragraph{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 5px;
+    letter-spacing: 5px;
+    padding: 5%;
+    font-size: 25px;
+    color:#c9c9c9;
+  }
 
-  /*new button*/
+#about_us{
+    padding: 5%;
+  }
 
-/*END BUTTON*/
+/*ABOUT US ENDS*/
+ 
+
+/*LINK*/
 
 
 .contactlink{
@@ -93,7 +184,7 @@ p{
     text-decoration:dotted;
     text-decoration-color: #c9c9c9;
 }
-
+/*WHITE SECTION*/
 .whitesection{
     background-color: white;
     border-top-left-radius: 28%;
@@ -102,26 +193,11 @@ p{
 
 .whitesectionbottom{
     background-color: white;
-    border-bottom-right-radius: 20%;
+    border-bottom-right-radius: 80px;
     border-top-style: none;
 }
+/*WHITE SECTION ENDS*/
 
-.contactform{
-    border-style: solid;
-    width:500px;
-    border-radius: 25px;
-    padding: 5%;
-    border-width: 1px;
-}
-
-.contactarea{
-    border-style: solid;
-    width:350px;
-    max-height: 100px;
-    border-radius: 15px;
-    padding: 5%;
-    border-width: 1px;
-}
 
 /*MAC PIC*/
 .maccomputer{
@@ -137,6 +213,7 @@ p{
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+    
 }
 
 /*BURGER*/
