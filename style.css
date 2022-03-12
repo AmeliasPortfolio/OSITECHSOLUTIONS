@@ -88,9 +88,10 @@ p{
 /*END BUTTON*/
 
 
-.link{
-    color:white;
-    text-decoration:none;
+.contactlink{
+   
+    text-decoration:dotted;
+    text-decoration-color: #c9c9c9;
 }
 
 .whitesection{
