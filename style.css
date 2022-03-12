@@ -1,56 +1,3 @@
-/*begin ani test smooth animation*/
-
-.smoothed-out {
-  overflow: hidden;
-  border-right: .15em solid orange;
-  font-size: 1.6rem;
-  width: 0;
-}
-.container {
-  display: inline-block;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-.smoothed-out{
-  overflow: hidden;
-  border-right: .15em solid rgba(223, 223, 223, 0.192);
-  white-space: nowrap;
-  font-size: 1.6rem;
-  width: 0;
-  animation: typing 1s forwards;
-}
-
-
-/*end test*/
-/*typed*/
-
-.container {
-  display: inline-block;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink {
-  from { border-color: transparent }
-  to { border-color: rgb(99, 153, 189); }
-}
-
-.typed-out{
-  overflow: hidden;
-  border-right: .15em solid rgb(71, 115, 151);
-  white-space: nowrap;
-  font-size: 1.6rem;
-  width: 0;
-  animation: 
-    typing 1s steps(20, end) forwards,
-    blink .8s infinite;
-}
-
-/*end typed*/
 
 header{
   height:auto;
@@ -90,7 +37,7 @@ h2{
 h3{
     color: black;
     font-family: 'Bebas Neue', cursive;
-    font-size: xx-large;
+    font-size: 25px;
     letter-spacing: 5px;
 }
 h4{
@@ -125,9 +72,11 @@ p{
 }
 
 .manonphoneimage{
-    max-width:100%;
+  width:100%;
 }
-
+.camerasonwall{
+  width:100%;
+}
 .cctvpic{
     max-width:40%;
 }
@@ -167,10 +116,12 @@ p{
     padding: 5%;
     font-size: 25px;
     color:#c9c9c9;
+    
   }
 
 #about_us{
     padding: 5%;
+    max-width:1400px;
   }
 
 /*ABOUT US ENDS*/
@@ -206,7 +157,7 @@ p{
 /*GRADIENT TEXT*/
 .gradient-text {
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(45deg, #0237aa, #def018);
+    background-image: linear-gradient(45deg, #ffffff, #d1d3c2);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -293,3 +244,94 @@ p{
   }
 
 /*END BURGER*/
+/*begin smooth animation 1*/
+
+.smoothed-out {
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  font-size: 1.6rem;
+  width: 0;
+  line-height: 25px;
+}
+.onecontainer {
+  display: inline-block;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+.smoothed-out{
+  overflow: hidden;
+  border-right: .15em solid rgba(0, 0, 0, 0.192);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 2s forwards;
+  padding: 1%;
+}
+/*end smooth animation*/
+/*begin smooth animation 2*/
+
+.smoothed-out2 {
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  font-size: 1.6rem;
+  width: 0;
+  line-height: 25px;
+}
+
+.smoothed-out2{
+  overflow: hidden;
+  border-right: .15em solid rgba(0, 0, 0, 0.192);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 4s forwards;
+  padding: 1%;
+}
+/*end smooth animation*/
+/*begin smooth animation 3*/
+
+.smoothed-out3 {
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  font-size: 1.6rem;
+  width: 0;
+  line-height: 25px;
+}
+
+.smoothed-out3{
+  overflow: hidden;
+  border-right: .15em solid rgba(0, 0, 0, 0.192);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 6s forwards;
+  padding: 1%;
+}
+/*divider*/
+/*begin smooth animation 3*/
+
+.smoothed-out3 {
+  overflow: hidden;
+  border-right: .15em solid rgb(0, 0, 0);
+  font-size: 1.6rem;
+  width: 0;
+  line-height: 25px;
+}
+
+.smoothed-out4{
+  overflow: hidden;
+  border-right: .15em solid rgba(0, 0, 0, 0.192);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 10s forwards;
+  padding: 1%;
+}
+/*divider*/
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
