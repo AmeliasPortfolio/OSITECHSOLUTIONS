@@ -16,6 +16,7 @@ footer{
   bottom: 0%; 
   background: rgba(88, 88, 88, 0.514);
   border-top-left-radius: 55px;
+  border-top-right-radius: 55px;
 }
 
 
@@ -134,18 +135,6 @@ p{
    
     text-decoration:dotted;
     text-decoration-color: #c9c9c9;
-}
-/*WHITE SECTION*/
-.whitesection{
-    background-color: white;
-    border-top-left-radius: 28%;
-    border-top-style: none;
-}
-
-.whitesectionbottom{
-    background-color: white;
-    border-bottom-right-radius: 80px;
-    border-top-style: none;
 }
 /*WHITE SECTION ENDS*/
 
