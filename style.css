@@ -638,9 +638,19 @@ a.tilesWrap li button:hover:before {
 	left: 0;
 	opacity: 1;
 }
+.about_us_mobile{
+  visibility: hidden;
+}
 
 @media only screen and (max-width: 600px) {
-  .bottom-right {
-    margin: 10px;
+  .about_us_paragraph{
+    visibility: hidden;
+  }
+  .about_us_mobile{
+    visibility: visible;
+    letter-spacing: 5px;
+    padding: 5%;
+    font-size: 15px;
+    color:#c9c9c9;
   }
 }
