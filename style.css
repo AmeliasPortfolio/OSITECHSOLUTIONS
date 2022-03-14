@@ -31,10 +31,10 @@ body{
 }
 
 footer{
-  bottom: 0%; 
+  bottom: 0; 
   background: rgba(88, 88, 88, 0.514);
-  border-top-left-radius: 55px;
-  border-top-right-radius: 55px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /*animation*/
@@ -130,7 +130,7 @@ p{
     border-radius: 5%;
     border-style:hidden;
     width:auto;
-    margin:14px;
+    margin:5%;
 }
 .info:hover{
   width: 355px;
