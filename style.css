@@ -638,3 +638,9 @@ a.tilesWrap li button:hover:before {
 	left: 0;
 	opacity: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  .bottom-right {
+    margin: 10px;
+  }
+}
