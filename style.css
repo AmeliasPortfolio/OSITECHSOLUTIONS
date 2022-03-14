@@ -123,7 +123,7 @@ p{
     border-radius: 5%;
     border-style:hidden;
     width:auto;
-    margin:4px;
+    margin:14px;
 }
 .info:hover{
   width: 355px;
@@ -223,7 +223,7 @@ p{
 .amelink{
    
   text-decoration:dotted;
-  text-decoration-color: #a7a6a680;
+  text-decoration-color: #7a7a7a80;
 }
 /*WHITE SECTION ENDS*/
 
@@ -410,7 +410,7 @@ p{
 /*divider*/
 /* Rounded border */
 hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 2px solid #bbb;
   border-radius: 5px;
 }
 hr.rounded2 {
@@ -418,3 +418,7 @@ hr.rounded2 {
   border-radius: 5px;
 }
 
+hr.rounded3 {
+  border-top: 1px solid rgb(75, 75, 75);
+  border-radius: 5px;
+}
