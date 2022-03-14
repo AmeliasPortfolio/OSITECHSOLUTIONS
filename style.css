@@ -11,14 +11,44 @@ header{
 body{
     background-color: black;
 }
+
+ @keyframes colorchange{
+  0% {color: rgb(246, 255, 254);}
+  20% {color: rgb(192, 238, 238) ;} 
+  30% {color: rgb(162, 247, 247) ;} 
+  40% {color: rgb(134, 209, 219);}
+  50% {color: rgb(121, 216, 216) ;} 
+  60% {color: rgb(107, 204, 207);}
+  70% {color: rgb(105, 236, 236) ;} 
+  80% {color: rgb(104, 209, 235);} 
+  90% {color: rgb(167, 241, 241);}
+  100% {color: rgb(230, 249, 253) ;} 
+  /*animation-name: colorchange;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;*/
+}
+
 footer{
- 
   bottom: 0%; 
   background: rgba(88, 88, 88, 0.514);
   border-top-left-radius: 55px;
   border-top-right-radius: 55px;
 }
 
+/*animation*/
+@keyframes disolve{
+  0% {visibility: visible;}
+  50%{visibility: 50% visible}
+  100% {visibility: hidden;}
+  /*animation-name: disolve;
+    animation-duration: 4s;
+    animation-iteration-count: 1;*/
+  }
+.disolve{
+    animation-name: disolve;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
 
 /*FONTS*/
 h1{
@@ -26,6 +56,9 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     letter-spacing: 5px;
+    animation-name: colorchange;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
 h2{
@@ -67,7 +100,11 @@ p{
 
 
 /*CLASSES*/
-
+.social{
+ float:right;
+  margin-right: 2%;
+  margin-top: -2%;
+}
 .ositech{
     line-height: 1px;
 }
@@ -78,9 +115,27 @@ p{
 .camerasonwall{
   width:100%;
 }
-.cctvpic{
-    max-width:40%;
+.appic{
+    max-width:100%;
+    border-radius: 15px;
 }
+.info{
+    border-radius: 5%;
+    border-style:hidden;
+    width:auto;
+    margin:4px;
+}
+.info:hover{
+  width: 355px;
+}
+.servicesintro{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 50;
+  letter-spacing: 35px;
+}
+
+
 /*BUTTON CONTACT*/
 .button{
     border-style: solid;
@@ -94,7 +149,7 @@ p{
 }
 
 .button:hover{
-    width:auto;
+    width:260px;
     height:auto;
 }
 
@@ -108,6 +163,19 @@ p{
     overflow: hidden;
     background-color: #f1f1f1;
   }
+  /* Container holding the image and the text */
+.laptopcontainer {
+  position: relative;
+  text-align: center;
+  color: rgb(148, 63, 63);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 /*ABOUT US START*/
 .about_us_paragraph{
     
@@ -125,6 +193,22 @@ p{
     max-width:1400px;
   }
 
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-right {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  right: 1%;
+  transform: translate(-50%, -50%);
+}
 /*ABOUT US ENDS*/
  
 
@@ -135,6 +219,11 @@ p{
    
     text-decoration:dotted;
     text-decoration-color: #c9c9c9;
+}
+.amelink{
+   
+  text-decoration:dotted;
+  text-decoration-color: #a7a6a680;
 }
 /*WHITE SECTION ENDS*/
 
@@ -315,7 +404,7 @@ p{
   white-space: nowrap;
   font-size: 1.6rem;
   width: 0;
-  animation: typing 10s forwards;
+  animation: typing 5s forwards;
   padding: 1%;
 }
 /*divider*/
@@ -324,3 +413,8 @@ hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
 }
+hr.rounded2 {
+  border-top: 2px solid #bbb;
+  border-radius: 5px;
+}
+
