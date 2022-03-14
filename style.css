@@ -5,6 +5,7 @@ header{
   background-color: rgba(0, 0, 0, 0.568);
   top:0;
   width:100%;
+  z-index: 100;
 
 }
 
