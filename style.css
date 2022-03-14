@@ -58,9 +58,7 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     letter-spacing: 5px;
-    animation-name: colorchange;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
+   
 }
 
 h2{
@@ -108,8 +106,14 @@ p{
   margin-top: -2%;
   
 }
+.ositechtop{
+  line-height: 1px;
+}
 .ositech{
     line-height: 1px;
+    animation-name: colorchange;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
 
 .manonphoneimage{
@@ -137,7 +141,9 @@ p{
   font-weight: 50;
   letter-spacing: 35px;
 }
-
+.greybackground{
+  background-color: rgba(94, 75, 75, 0.459);
+}
 
 /*BUTTON CONTACT*/
 .button{
