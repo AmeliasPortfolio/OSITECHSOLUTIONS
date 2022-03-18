@@ -158,6 +158,13 @@ p{
   font-weight: 50;
   letter-spacing: 35px;
 }
+.getestimate{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 50;
+  letter-spacing: 15px;
+  line-height: 45px;
+}
 .gradientbackground{
   background-color: rgba(94, 75, 75, 0.459);
   background: linear-gradient(to right, #FFAFBD, #C9FFBF);
@@ -496,8 +503,8 @@ hr.rounded4 {
 .tilesWrap li {
 	display: inline-block;
 	width: 20%;
-	min-width: 200px;
-	max-width: 230px;
+	min-width: 40%;
+	max-width: 100%;
 	padding: 80px 20px 40px;
 	position: relative;
 	vertical-align: top;
