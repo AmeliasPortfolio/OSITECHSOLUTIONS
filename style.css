@@ -83,7 +83,7 @@ h2{
 h3{
     color: black;
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 5px;
 }
 h4{
@@ -525,7 +525,7 @@ hr.rounded4 {
 	transition: all 0.3s ease-in-out;
 }
 .tilesWrap li h3 {
-	font-size: 20px;
+	font-size: 18px;
 	color: #b7b7b7;
 	margin-bottom: 5px;
 }
