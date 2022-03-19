@@ -503,8 +503,8 @@ hr.rounded4 {
 .tilesWrap li {
 	display: inline-block;
 	width: 20%;
-	min-width: 40%;
-	max-width: 100%;
+	width: 43%;
+	max-width: 50%;
 	padding: 80px 20px 40px;
 	position: relative;
 	vertical-align: top;
