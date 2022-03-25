@@ -24,31 +24,13 @@ body{
   80% {color: rgb(220, 104, 235);} 
   90% {color: rgb(193, 167, 241);}
   100% {color: rgb(230, 249, 253) ;} 
-  /*animation-name: colorchange;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;*/
+
 }
-
- /*@keyframes colorchange{
-  0% {color: rgb(246, 255, 254);}
-  20% {color: rgb(192, 238, 238) ;} 
-  30% {color: rgb(162, 247, 247) ;} 
-  40% {color: #ff9472, }
-  50% {color: #f2709c; ;} 
-  60% {color: rgb(161, 27, 27);}
-  70% {color: rgb(236, 105, 155) ;} 
-  80% {color: rgb(220, 104, 235);} 
-  90% {color: rgb(193, 167, 241);}
-  100% {color: rgb(230, 249, 253) ;} */
-
-  /*animation-name: colorchange;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;*/
 
 footer{
   bottom: 0; 
   border:solid;
-  background: linear-gradient(to right, #ffafbc6e, #c9ffbf63);
+  background: linear-gradient(to right, #ffc6d0a2, #e1ffdbb7);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   
@@ -59,9 +41,6 @@ footer{
   0% {visibility: visible;}
   50%{visibility: 50% visible}
   100% {visibility: hidden;}
-  /*animation-name: disolve;
-    animation-duration: 4s;
-    animation-iteration-count: 1;*/
   }
 
 
@@ -83,7 +62,7 @@ h2{
 h3{
     color: black;
     font-family: 'Smooch Sans', sans-serif;
-    font-size: 20px;
+    font-size: 4vw;
     letter-spacing: 5px;
 }
 h4{
@@ -110,8 +89,17 @@ p{
     color:white;
 }
 
-
 /*CLASSES*/
+.topdescription{
+  color: rgb(212, 212, 212);
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  margin: 12%;
+  margin-bottom: 120px;
+  font-size: 2.5vw;
+
+}
+
 .social{
  float:right;
   margin-right: 2%;
@@ -153,10 +141,10 @@ p{
   width: 355px;
 }
 .servicesintro{
-  color: white;
+  color: rgb(141, 140, 140);
   font-family: 'Bebas Neue', cursive;
   font-weight: 50;
-  letter-spacing: 35px;
+  letter-spacing: 25px;
 }
 .getestimate{
   color: white;
@@ -245,12 +233,12 @@ a.callus{
     font-weight: 1px;
     letter-spacing: 5px;
     padding: 2%;
-    font-size: 22px;
     color:#c9c9c9;
+    font-size: 4vw;
   }
 
 #about_us{
-    padding: 5%;
+    padding: 2%;
     max-width:1400px;
   }
 
@@ -265,23 +253,21 @@ a.callus{
 /* Bottom left text */
 .bottom-right {
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 75%;
   right: 1%;
   transform: translate(-50%, -50%);
+  width: 40%;
 }
 /*ABOUT US ENDS*/
  
 
 /*LINK*/
-
-
 .contactlink{
    
     text-decoration:dotted;
     text-decoration-color: #c9c9c9;
 }
-
 
 
 /*MAC PIC*/
@@ -491,7 +477,10 @@ hr.rounded4 {
   border-radius: 5px;
 }
 
-
+.white{
+width:100%;
+background:white;
+}
 /*BOXES FOR SERVICES*/
 
 .tilesWrap {
@@ -511,8 +500,8 @@ hr.rounded4 {
 	margin: 10px;
 	font-family: 'helvetica', san-serif;
 	min-height: 25vh;
-	background: #262a2b;
-	border: 1px solid #252727;
+	background: #f1f1f1ea;
+	border: 1px solid #ebe6e6;
 	text-align: left;
 }
 .tilesWrap li h2 {
@@ -523,16 +512,17 @@ hr.rounded4 {
 	top: 50px;
 	right: 10px;
 	transition: all 0.3s ease-in-out;
+  color: #000000;
 }
 .tilesWrap li h3 {
 	font-size: 17px;
-	color: #b7b7b7;
+	color: #8d8d8d;
 	margin-bottom: 5px;
 }
 .tilesWrap li p {
 	font-size: 16px;
 	line-height: 18px;
-	color: #b7b7b7;
+	color: #474747;
 	margin-top: 5px;
 }
 .tilesWrap li button {
@@ -617,7 +607,7 @@ background: linear-gradient(to right, #ffc500, #c21500);
 	background: #FC354C;
 background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
 background: linear-gradient(to right, #0ABFBC, #FC354C);
-}
+} 
 
 /*link buttons*/
 .tilesWrap li button {
@@ -658,22 +648,108 @@ a.tilesWrap li button:hover:before {
 	left: 0;
 	opacity: 1;
 }
+
+
 .about_us_mobile{
   visibility: hidden;
 }
 
-@media only screen and (max-width: 600px) {
-  .about_us_paragraph{
-    visibility: hidden;
-  }
-  .about_us_mobile{
-    visibility: visible;
+.servicesdescription{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 1px;
     letter-spacing: 5px;
-    padding: 5%;
-    font-size: 15px;
+    padding: 2%;
+    font-size: 22px;
     color:#c9c9c9;
-  }
-  .rounded4{
-    visibility: hidden;
-  }
+    text-decoration: underline;
+}
+
+.info{
+  font-family: 'Smooch Sans', sans-serif;
+  line-height: 25px;
+  font-weight: 1px;
+  letter-spacing: 4px;
+  padding: 2%;
+  font-size: 14px;
+  color:#c9c9c9;
+	transition: all 0.3s ease-in-out;
+	transform: translateY(-10px);
+}
+
+ul.info2{
+  left: 20%;
+  list-style: none;
+}
+.info2{
+  font-family: 'Smooch Sans', sans-serif;
+  line-height: 25px;
+  font-weight: 1px;
+  letter-spacing: 5px;
+  padding: 2%;
+  font-size: 14px;
+  color:#c9c9c9;
+}
+.fadein{
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
+.fadein2{
+  animation: fadeIn2 linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn2 linear 2s;
+  -o-animation: fadeIn2 linear 2s;
+  -ms-animation: fadeIn2 linear 2s;
+}
+@keyframes fadeIn2 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn2 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn2 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn2 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn2 {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
