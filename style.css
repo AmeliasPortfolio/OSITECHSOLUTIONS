@@ -47,7 +47,7 @@ footer{
 /*FONTS*/
 h1{
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
     letter-spacing: 5px;
    
@@ -55,7 +55,7 @@ h1{
 
 h2{
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue',  sans-serif;
     letter-spacing: 5px;
 }
 
@@ -74,13 +74,13 @@ h4{
 }
 h5{
   color: rgb(247, 245, 245);
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue',  sans-serif;
     font-size: xx-large;
     letter-spacing: 5px;
 }
 h6{
     color: white;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue',  sans-serif;
     font-weight: 50;
     letter-spacing: 5px;
 }
@@ -92,7 +92,7 @@ p{
 /*CLASSES*/
 .topdescription{
   color: rgb(212, 212, 212);
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue',  sans-serif;
   letter-spacing: 5px;
   margin: 12%;
   margin-bottom: 120px;
@@ -142,13 +142,13 @@ p{
 }
 .servicesintro{
   color: rgb(141, 140, 140);
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue',  sans-serif;
   font-weight: 50;
   letter-spacing: 25px;
 }
 .getestimate{
   color: white;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue',  sans-serif;
   font-weight: 50;
   letter-spacing: 15px;
   line-height: 45px;
@@ -158,7 +158,7 @@ p{
   background: linear-gradient(to right, #FFAFBD, #C9FFBF);
 }
 .callus{
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue',  sans-serif;
   font-weight: 5px;
   letter-spacing: 15px;
   padding: 5%;
@@ -229,7 +229,7 @@ a.callus{
 }
 /*ABOUT US START*/
 .about_us_paragraph{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-weight: 1px;
     letter-spacing: 5px;
     padding: 2%;
@@ -655,13 +655,13 @@ a.tilesWrap li button:hover:before {
 }
 
 .servicesdescription{
-    font-family: 'Bebas Neue', cursive;
+  font-family: 'Smooch Sans', sans-serif;
     font-weight: 1px;
     letter-spacing: 5px;
     padding: 2%;
-    font-size: 22px;
+    font-size: 26px;
     color:#c9c9c9;
-    text-decoration: underline;
+  
 }
 
 .info{
@@ -679,6 +679,7 @@ a.tilesWrap li button:hover:before {
 ul.info2{
   left: 20%;
   list-style: none;
+  font-size: 19px;
 }
 .info2{
   font-family: 'Smooch Sans', sans-serif;
